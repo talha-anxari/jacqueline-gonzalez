@@ -1,0 +1,435 @@
+@media only screen and (max-width: 1920px) and (min-width: 1500px) {
+	.container {
+		max-width: 1315px;
+	}
+}
+
+
+/* ===================== <= 1199px ===================== */
+@media (max-width: 1199px) {
+  .hero-title-main {
+    font-size: 4.1rem;
+  }
+ 
+  .section-head h2 {
+    font-size: 2rem;
+  }
+ 
+  .edition-cover-wrap img {
+    height: 250px;
+  }
+}
+ 
+/* ===================== <= 991px : Tablets landscape ===================== */
+@media (max-width: 991px) {
+  .hero-ridge {
+    min-height: auto;
+    padding: 110px 0 80px;
+  }
+ 
+  .hero-ridge .hero-bg {
+    /* background-position: center center; */
+    background-position: 85% center;
+    background-size: cover;
+  }
+ 
+  .hero-title-main {
+    font-size: 3.3rem;
+  }
+ 
+  .hero-ridge p.lead {
+    max-width: 100%;
+  }
+ 
+  .navbar-author .nav-link {
+    margin: 0 10px;
+  }
+
+   .author-section {
+        padding: 60px 0;
+    }
+
+    .author-image-wrap {
+        max-width: 320px;
+        margin: 0 auto 30px;
+    }
+
+    .author-name {
+        font-size: 2.2rem;
+    }
+
+    .author-content {
+        text-align: center;
+        padding: 0;
+    }
+
+    .author-divider {
+        margin: 0 auto 20px;
+    }
+
+    .author-title {
+        justify-content: center;
+    }
+
+    .author-social {
+        justify-content: center;
+    }
+
+    .author-quote {
+        text-align: left;
+    }
+ 
+  .section-py {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+ 
+  .about-orchard .row > div:first-child {
+    margin-bottom: 30px;
+  }
+ 
+  .edition-cover-wrap img {
+    height: 230px;
+  }
+ 
+  .footer-ridge .col-lg-3,
+  .footer-ridge .col-md-6 {
+    margin-bottom: 30px;
+  }
+}
+ 
+/* ===================== <= 767px : Tablets portrait / phablets ===================== */
+@media (max-width: 767px) {
+  .navbar-author .navbar-collapse {
+    background-color: var(--cream);
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(43,58,74,0.1);
+  }
+
+  .navbar-cart-mobile {
+  order: 2;
+  margin-left: auto;
+  margin-right: 14px;
+}
+
+.navbar-toggler {
+  order: 3;
+  margin-left: 0;
+}
+
+.navbar-collapse {
+  order: 4;
+  flex-basis: 100%;
+}
+
+.nav-cart-btn {
+  font-size: 1.35rem;
+}
+ 
+  .navbar-author .nav-link {
+    margin: 0;
+    padding: 12px 0 !important;
+    border-bottom: 1px solid rgba(43,58,74,0.08);
+  }
+ 
+  .navbar-author .nav-link.active,
+  .navbar-author .nav-link:hover {
+    border-bottom-color: rgba(43,58,74,0.08);
+  }
+ 
+  .navbar-cart-mobile {
+    margin-right: 14px;
+  }
+ 
+  .nav-cart-btn {
+    font-size: 1.35rem;
+  }
+ 
+  .hero-ridge {
+    padding: 30px 0;
+    min-height: 80vh;
+  }
+ 
+  .hero-kicker {
+    justify-content: center;
+  }
+ 
+  .hero-ridge p.lead {
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  .hero-title-main {
+    font-size: 2.5rem;
+  }
+ 
+  .hero-cta-row {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-img {
+    margin-top: 2rem;
+}
+
+   .author-section {
+        padding: 50px 0;
+    }
+
+    .author-image-wrap {
+        max-width: 280px;
+    }
+    .author-wrapper .row {
+    flex-direction: column-reverse;
+    gap: 30px;
+}
+.author-divider{
+  margin: 0 20px 20px;
+}
+.author-social{
+  justify-content: start;
+}
+.author-content {
+        text-align: left;
+        padding: 0;
+    }
+        .author-title {
+        justify-content: start;
+    }
+
+    .author-image-border {
+        top: -10px;
+        left: -10px;
+    }
+
+    .author-image-wrap:hover .author-image-border {
+        top: -12px;
+        left: -12px;
+    }
+
+    .author-image-dot {
+        width: 40px;
+        height: 40px;
+        bottom: -8px;
+        right: -8px;
+    }
+
+    .author-name {
+        font-size: 1.8rem;
+    }
+
+    .author-title {
+        font-size: 1rem;
+    }
+
+    .author-bio {
+        font-size: 0.95rem;
+    }
+
+    .author-bio-secondary {
+        font-size: 0.9rem;
+    }
+
+    .social-link {
+        width: 38px;
+        height: 38px;
+        font-size: 0.95rem;
+    }
+
+    .author-quote {
+        padding: 16px 18px;
+    }
+
+    .author-quote i {
+        font-size: 1.4rem;
+        top: 8px;
+        right: 14px;
+    }
+
+    .author-quote p {
+        font-size: 0.9rem;
+        padding-right: 25px;
+    }
+ 
+  .btn-coral,
+  .btn-outline-cream {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    margin: 0 0 14px 0 !important;
+  }
+ 
+  .section-head {
+    text-align: center;
+  }
+ 
+  .section-head p.section-sub {
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  .section-head h2 {
+    font-size: 1.7rem;
+  }
+ 
+  .edition-cover-wrap img {
+    height: 260px;
+  }
+ 
+  .about-orchard {
+    text-align: center;
+  }
+ 
+  .footer-ridge .social-row {
+    justify-content: start;
+    display: flex;
+  }
+}
+ 
+/* ===================== <= 575px : Phones ===================== */
+@media (max-width: 575px) {
+  .hero-title-main {
+    font-size: 1.95rem;
+  }
+ 
+  .hero-ridge h1 {
+    font-size: 1.25rem;
+  }
+ 
+  .hero-kicker {
+    font-size: 0.68rem;
+  }
+ 
+  .hero-ridge p.lead {
+    font-size: 0.96rem;
+  }
+ 
+  .section-py {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+ 
+  .section-head h2 {
+    font-size: 1.45rem;
+  }
+ 
+  .edition-cover-wrap img {
+    height: 230px;
+  }
+ 
+  .edition-card-body {
+    padding: 18px;
+  }
+ 
+  .swiper-slide-card .slide-cover {
+    height: 190px;
+  }
+ 
+  .toast-added-cart {
+    left: 16px;
+    right: 16px;
+    top: auto;
+    bottom: 20px;
+    text-align: center;
+  }
+ 
+  .review-card {
+    padding: 22px 20px;
+  }
+}
+ 
+/* ===================== <= 400px : Small phones ===================== */
+@media (max-width: 400px) {
+  .navbar{
+    padding: 0.25rem 16px;
+  }
+  .hero-title-main {
+    font-size: 1.65rem;
+  }
+    .hero-ridge .hero-bg {
+    background-position: 90% center;
+  }
+
+  .author-section {
+        padding: 40px 0;
+    }
+
+    .author-image-wrap {
+        max-width: 220px;
+    }
+
+    .author-image-border {
+        top: -8px;
+        left: -8px;
+        border-width: 1.5px;
+    }
+
+    .author-image-wrap:hover .author-image-border {
+        top: -10px;
+        left: -10px;
+    }
+
+    .author-image-dot {
+        width: 30px;
+        height: 30px;
+        bottom: -5px;
+        right: -5px;
+    }
+
+    .author-name {
+        font-size: 1.5rem;
+    }
+
+    .author-eyebrow {
+        font-size: 0.7rem;
+    }
+
+    .author-bio {
+        font-size: 0.88rem;
+    }
+
+    .author-bio-secondary {
+        font-size: 0.85rem;
+    }
+
+    .social-link {
+        width: 34px;
+        height: 34px;
+        font-size: 0.85rem;
+    }
+
+    .author-quote {
+        padding: 14px 16px;
+    }
+
+    .author-quote i {
+        font-size: 1.2rem;
+        top: 6px;
+        right: 12px;
+    }
+
+    .author-quote p {
+        font-size: 0.85rem;
+        padding-right: 20px;
+    }
+ 
+  .author-logo .logo-last {
+    font-size: 1.3rem;
+  }
+ 
+  .edition-cover-wrap img {
+    height: 210px;
+  }
+  .bookSwiper .swiper-button-next,
+.bookSwiper .swiper-button-prev {
+  display: none;
+}
+
+.toast-container {
+  left: 0px !important;
+  right: 0px !important;
+  top: auto !important;
+  bottom: 20px !important;
+  text-align: center !important;
+}
+}
