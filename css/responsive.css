@@ -18,6 +18,9 @@
   .edition-cover-wrap img {
     height: 250px;
   }
+  .navbar-author .nav-link {
+    margin: 0 10px;
+}
 }
  
 /* ===================== <= 991px : Tablets landscape ===================== */
@@ -42,7 +45,7 @@
   }
  
   .navbar-author .nav-link {
-    margin: 0 10px;
+    margin: 10px;
   }
 
    .author-section {
@@ -96,6 +99,10 @@
   .footer-ridge .col-md-6 {
     margin-bottom: 30px;
   }
+
+  .video-title { font-size: 2rem; }
+  .chapters-intro-title { font-size: 2rem; }
+  .chapters-intro-cover { max-height: 320px; }
 }
  
 /* ===================== <= 767px : Tablets portrait / phablets ===================== */
@@ -284,6 +291,70 @@
     justify-content: start;
     display: flex;
   }
+
+   .newsletter-section {
+    padding: 56px 0;
+    text-align: center;
+  }
+
+  .newsletter-author-img {
+    display: block;
+    margin: 0 auto 16px;
+  }
+
+  .newsletter-title {
+    font-size: 2rem;
+  }
+
+  .newsletter-form-row {
+    max-width: 100%;
+    flex-direction: column;
+  }
+
+  .newsletter-input {
+    border-right: 1px solid rgba(245, 240, 230, 0.2);
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+
+  .newsletter-btn {
+    padding: 14px;
+  }
+
+  /* inner banner */
+    .inner-banner {
+    height: 260px;
+  }
+
+  .inner-banner-title {
+    font-size: 2rem;
+  }
+
+   .coming-soon-title { font-size: 2.2rem; }
+  .countdown-block { padding: 16px 16px; min-width: 72px; }
+  .countdown-num { font-size: 2rem; }
+  .coming-soon-form { flex-direction: column; }
+  .coming-soon-input { border-right: 1px solid rgba(245,240,230,0.2); }
+  
+
+    .contact-title { font-size: 1.9rem; }
+  .contact-form-wrap { padding: 28px 22px; }
+  .chapter-number {
+    font-size: 3.5rem;
+  }
+
+  .chapter-title {
+    font-size: 1.05rem;
+  }
+
+  .video-title { font-size: 1.75rem; }
+  .video-play-btn { width: 58px; height: 58px; font-size: 1.1rem; }
+
+  .chapters-intro-section { text-align: center; }
+  .chapters-intro-title { font-size: 1.75rem; }
+  .chapters-preview-item { justify-content: center; flex-wrap: wrap; }
+  .chapters-intro-eyebrow { justify-content: center; }
+  .chapters-intro-cover-badge { right: 10px; bottom: -10px; }
 }
  
 /* ===================== <= 575px : Phones ===================== */
@@ -336,6 +407,37 @@
   .review-card {
     padding: 22px 20px;
   }
+
+  /* inner banner */
+    .inner-banner {
+    height: 220px;
+  }
+
+  .inner-banner-title {
+    font-size: 1.6rem;
+  }
+  .coming-soon-title { font-size: 1.7rem; }
+  .countdown-block { padding: 12px 12px; min-width: 62px; }
+  .countdown-num { font-size: 1.6rem; }
+
+  .contact-title { font-size: 1.55rem; }
+   .chapter-card-body {
+    padding: 6px 18px 16px;
+  }
+
+  .chapter-number {
+    padding: 18px 18px 0;
+    font-size: 3rem;
+  }
+
+  .chapter-footer {
+    padding: 12px 18px 18px;
+  }
+
+  .video-title { font-size: 1.45rem; }
+
+  .chapters-intro-title { font-size: 1.45rem; }
+  .chapters-intro-cover { max-height: 260px; }
 }
  
 /* ===================== <= 400px : Small phones ===================== */
@@ -432,4 +534,7 @@
   bottom: 20px !important;
   text-align: center !important;
 }
+ .newsletter-title {
+    font-size: 1.65rem;
+  }
 }
